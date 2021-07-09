@@ -24,7 +24,7 @@ newListForm.addEventListener('submit', (e) => {
     if (listName === null || listName === '') return;
     const list = createList(listName)
     newListInput.value = null
-    list.push(list)
+    lists.push(list)
     render()
 })
 
