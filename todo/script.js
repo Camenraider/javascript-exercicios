@@ -33,6 +33,7 @@ function createList(name){
 }
 
 function render() {
+    clearElement(listContainer)
     lists.forEach(function(list){
         const item = document.createElement('li')
         item.classList.add('item')
